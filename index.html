@@ -13,51 +13,53 @@
   </head>
   <body class="bg-black text-white">
     <div class="flex container mx-auto my-4 ">
-      <div class="first  w-[70%]">
-        <div class="logo invert my-4">
-          <svg
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
-          >
-            <g>
-              <path
-                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-              ></path>
-            </g>
-          </svg>
-        </div>
+      <div class="first  w-16 md:w-[70%] ">
+    
+        <div class="sidebar flex items-end  flex-col sticky top-0">
 
-        <div class="sidebar flex items-end flex-col">
-          <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold">
+          <div class="logo invert my-4 self-start mx-2  md:mx-16">
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+            >
+              <g>
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+
+          <ul class="flex flex-col  text-2xl items-end md:items-start space-y-3 md:px-11 font-bold md:w-full">
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> home </span>
-              <span>Home</span>
+              <span class=" hidden md:block">Home</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> Explore </span>
-              <span>Explore</span>
+              <span class=" hidden md:block">Explore</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined">
                 notifications
               </span>
-              <span>Notifications</span>
+              <span class=" hidden md:block">Notifications</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> mail </span>
-              <span>Messages</span>
+              <span class=" hidden md:block">Messages</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl">
                 <svg
@@ -85,36 +87,36 @@
                   </g>
                 </svg>
               </span>
-              <span>Grok</span>
+              <span class=" hidden md:block">Grok</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> List_Alt </span>
-              <span>Lists</span>
+              <span class=" hidden md:block">Lists</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> Bookmark </span>
-              <span>Bookmarks</span>
+              <span class=" hidden md:block">Bookmarks</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined">
                 Business_Center
               </span>
-              <span>Jobs</span>
+              <span class=" hidden md:block">Jobs</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> group </span>
-              <span>Communities</span>
+              <span class=" hidden md:block">Communities</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined">
                 <svg
@@ -132,10 +134,10 @@
                   </g>
                 </svg>
               </span>
-              <span>Premium</span>
+              <span class=" hidden md:block">Premium</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined">
                 <svg
@@ -153,37 +155,60 @@
                   </g>
                 </svg>
               </span>
-              <span>Verified Orgs</span>
+              <span class=" hidden md:block">Verified Orgs</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined"> Person </span>
-              <span>Profile</span>
+              <span class=" hidden md:block">Profile</span>
             </li>
             <li
-              class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
+              class="flex md:justify-start items-center gap-3 justify-center md:mr-4 ml-2 md:w-fit px-5 py-3 hover:bg-gray-900 hover:cursor-pointer hover:rounded-full"
             >
               <span class="text-3xl material-symbols-outlined">
                 More_horiz
               </span>
-              <span>More</span>
+              <span class=" hidden md:block">More</span>
             </li>
 
             <li>
               <div class="button w-full text-center my-4">
-                <button class="bg-sky-600 px-20 py-3 rounded-full text-xl text-white">
+                <button class=" hidden md:block bg-sky-600 px-20 py-3 rounded-full text-xl text-white">
                   Post
+                </button>
+                <button class=" md:hidden  mr-2 bg-sky-600 px-3 py-3 rounded-full text-xl text-white">
+                  <img src="icons/post.svg" alt="">
                 </button>
               </div>
             </li>
           </ul>
+
+          <div class="userprofile w-full  mt-10 md:flex justify-end mx-10 hidden ">
+            <div class="item items-center  mx-5 hover:bg-gray-900 cursor-pointer gap-5  p-3 flex rounded-full w-fit">
+
+                <div class="p1">
+                  <img class=" w-12 h-12 rounded-full" src="https://pbs.twimg.com/profile_images/1555232197090902016/n9deCf_u_normal.jpg" alt="vuejs"> 
+                </div>
+                <div class="p2">
+                  <div>Anushka Sharma</div>
+                  <div class="text-gray-500">@amushka0909</div>
+                </div>
+                
+                <div class="p3">
+                  <span class="material-symbols-outlined">
+                    more_horiz
+                  </span>
+                </div>
+  
+            </div>
+          </div>
           
         </div>
       </div>
-      <div class="second  w-full border-[1px] border-x-gray-700 border-y-black "
+      <div class="second  w-full border-[1px] border-x-gray-700 border-y-black " class=" hidden md:block"
       >
-        <div class="top flex p-3 relative">
+        <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-80">
           <div
             class="absolute w-16 h-1 rounded-full bg-sky-600 bottom-0 left-[19%] z-10"
           ></div>
@@ -216,30 +241,39 @@
               <span class="font-bold">Everyone can reply</span>
             </div>
             <div class="h-[0.2px] w-[90%] bg-gray-700 my-3"></div>
-            <div class="blueicons flex gap-2 text-sky-600">
-              <span class="material-symbols-outlined cursor-pointer"> 
-                imagesmode 
-              </span>
+            <div class="flex justify-between">
 
-              <span class="material-symbols-outlined cursor-pointer"> 
-                gif_box 
-              </span>
+              <div class="blueicons flex gap-2 text-sky-600 items-center">
+                <span class="material-symbols-outlined cursor-pointer"> 
+                  imagesmode 
+                </span>
+  
+                <span class="material-symbols-outlined cursor-pointer"> 
+                  gif_box 
+                </span>
+  
+                <span class="material-symbols-outlined cursor-pointer"> 
+                  ballot 
+                </span>
+  
+                <span class="material-symbols-outlined cursor-pointer">
+                  sentiment_satisfied
+                </span>
+  
+                <span class="material-symbols-outlined cursor-pointer"> 
+                  calendar_clock 
+                </span>
+  
+                <span class="material-symbols-outlined cursor-pointer">
+                   location_on 
+                </span>
+              </div>
+              <div class="postbtn">
+                <button class=" bg-sky-600 px-6 mx-5 py-2 rounded-full text-lg text-gray-200 font-bold">
+                  Post
+                </button>
+              </div>
 
-              <span class="material-symbols-outlined cursor-pointer"> 
-                ballot 
-              </span>
-
-              <span class="material-symbols-outlined cursor-pointer">
-                sentiment_satisfied
-              </span>
-
-              <span class="material-symbols-outlined cursor-pointer"> 
-                calendar_clock 
-              </span>
-
-              <span class="material-symbols-outlined cursor-pointer">
-                 location_on 
-              </span>
             </div>
           </div>
         </div>
@@ -260,30 +294,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -307,30 +340,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -354,30 +386,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -401,30 +432,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -448,30 +478,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -495,30 +524,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -542,30 +570,29 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -589,30 +616,121 @@
                   <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
                 </div>
 
-                <div class="icons  flex mx-3 text-gray-600 justify-between ">
-                  <div class="icon flex items-center justify-around ">
-                    <span>
-                      <img class="w-24" src="icons/comment.svg" alt=""> 
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
                     </span>
-                    <span class=" text-sm">17k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
                     </span>
-                    <span class=" text-sm">30k</span>
-                    <span class="ml-[20px]">
-                      <img class="w-24" src="icons/like.svg" alt="">
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
                     </span>
-                    <span class=" text-sm">345k</span>
-                    <span class="ml-[20px]">
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
                       <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
                     </span>
-                    <span class=" text-sm">456k</span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/save.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
                     </span>
-                    <span class=" text-sm">4.3k</span>
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="post w-full border-[1px] border-y-gray-700 border-x-black">
+
+            <div class="flex">
+              <div class="image m-4">
+                <img  class="rounded-full w-20" src="https://pbs.twimg.com/profile_images/1849727333617573888/HBgPUrjG_normal.jpg" alt="" />
+              </div>
+  
+              <div class="content my-3">
+                <span class="font-bold hover:underline hover:cursor-pointer text-white"> Elon Musk </span>
+                <span class="text-gray-500">@elonmusk · 3hr </span>
+                <div>It’s as if the 🤡 emoji came to life</div>
+                <div class="posting m-4 ml-0">
+                  <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
+                </div>
+
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
+                    </span>
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
+                    </span>
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
+                    </span>
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
+                    </span>
                     <span class="ml-[20px]">
-                      <img class="w-24" src="icons/share.svg" alt="">
+                      <img class="w-14" src="icons/save.svg" alt="">
+                    </span>
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="post w-full border-[1px] border-y-gray-700 border-x-black">
+
+            <div class="flex">
+              <div class="image m-4">
+                <img  class="rounded-full w-20" src="https://pbs.twimg.com/profile_images/1849727333617573888/HBgPUrjG_normal.jpg" alt="" />
+              </div>
+  
+              <div class="content my-3">
+                <span class="font-bold hover:underline hover:cursor-pointer text-white"> Elon Musk </span>
+                <span class="text-gray-500">@elonmusk · 3hr </span>
+                <div>It’s as if the 🤡 emoji came to life</div>
+                <div class="posting m-4 ml-0">
+                  <img class="rounded-xl" src="https://pbs.twimg.com/media/GajvdLMaUAAhDm3?format=jpg&name=small" alt="">
+                </div>
+
+                <div class="icons  flex mx-3 text-gray-600 justify-between md:text-lg ">
+                  <div class="icon flex items-center justify-around  ">
+                    <span class="flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 " src="icons/comment.svg" alt=""> 
+                      <span >17k</span>
+                    </span>
+                    <span class="ml-[20px] flex hover:text-green-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24" src="icons/repost.svg" alt="">
+                      <span >30k</span>
+                    </span>
+                    <span class="ml-[20px] flex hover:text-red-600 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24 hover:text-sky-500" src="icons/like.svg" alt="">
+                      <span >345k</span>
+                    </span>
+                    <span class="ml-[20px] flex hover:text-sky-500 hover:cursor-pointer hover:rounded-full p-1">
+                      <img class="w-24" src="icons/barchart.svg" alt="">
+                      <span >456k</span>
+                    </span>
+                    <span class="ml-[20px]">
+                      <img class="w-14" src="icons/save.svg" alt="">
+                    </span>
+                    <span class="">
+                      <img class="w-14" src="icons/share.svg" alt="">
                     </span>
                   </div>
                 </div>
@@ -624,7 +742,7 @@
         </div>
 
       </div>
-      <div class="third  w-full ">
+      <div class="third  w-full hidden md:block ">
         <div class="search m-3">
           <input
             type="text"
@@ -633,7 +751,7 @@
           />
         </div>
 
-        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+        <div class="whats m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3 sticky top-0">
           <h1 class="text-xl font-bold px-3">Whats Happening</h1>
           <div class="item  p-3 hover:bg-gray-800 cursor-pointer px-3">
             <div class=" text-sm text-gray-600">Trending in India</div>
@@ -669,19 +787,73 @@
           </div>
         </div>
 
-        <div class="who m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+        <div class="who m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-1 sticky top-[50vh]">
           <h1 class="text-xl font-bold px-3">Who To Follow</h1>
 
-          <div class="item  p-3 cursor-pointer px-3 space-y-4">
-            <div class="font-bold">AS</div>
-            <div class="font-bold">Akshay Kumar</div>
-            <div class="font-bold">Tailwind CSS</div>
-            <div class="font-bold">Peace✌️</div>
-            <div class=" text-sm text-gray-600">1.23k followers</div>
+          <div class="item items-center hover:bg-gray-800 cursor-pointer gap-2  p-3 flex  justify-between">
 
-            <div class="text-sky-600  my-5 px-3">Show More</div>
+            <div class=" flex gap-3">
+              <div class="p1">
+                <img class=" w-12 h-12 rounded-full" src="https://pbs.twimg.com/profile_images/1741454517433233409/k3ZIzg6U_normal.jpg" alt="vuejs"> 
+              </div>
+              <div class="p2">
+                <div>Vue</div>
+                <div class="text-gray-500">@vuejs</div>
+              </div>
+            </div>
+
+            <div class="p3">
+              <button class="bg-white text-black px-5 font-bold py-2 rounded-full">Follow</button>
+            </div>
+
           </div>
+          <div class="item items-center hover:bg-gray-800 cursor-pointer gap-2  p-3 flex  justify-between">
+
+            <div class=" flex gap-3">
+              <div class="p1">
+                <img class=" w-12 h-12 rounded-full" src="https://pbs.twimg.com/profile_images/1785867863191932928/EpOqfO6d_normal.png" alt="vuejs"> 
+              </div>
+              <div class="p2">
+                <div>React</div>
+                <div class="text-gray-500">@reactjs</div>
+              </div>
+            </div>
+
+            <div class="p3">
+              <button class="bg-white text-black px-5 font-bold py-2 rounded-full">Follow</button>
+            </div>
+
+          </div>
+          <div class="item items-center hover:bg-gray-800 cursor-pointer gap-2  p-3 flex  justify-between">
+
+            <div class=" flex gap-3">
+              <div class="p1">
+                <img class=" w-12 h-12 rounded-full" src="https://pbs.twimg.com/profile_images/1841144038734643200/crv_az0W_normal.png" alt="vuejs"> 
+              </div>
+              <div class="p2">
+                <div>Disney</div>
+                <div class="text-gray-500">@Disney</div>
+              </div>
+            </div>
+
+            <div class="p3">
+              <button class="bg-white text-black px-5 font-bold py-2 rounded-full">Follow</button>
+            </div>
+
+          </div>
+          <div class="text-sky-600 cursor-pointer hover:underline  my-5 px-3">Show More</div>
         </div>
+
+        <div class="terms sticky top-[84vh] px-3 text-xs text-gray-500 w-1/2 py-5 space-y-1">
+          <span class="hover:underline cursor-pointer mr-2"> Terms of Service</span>
+          <span class="hover:underline cursor-pointer mr-2"> Privacy Policy</span>
+          <span class="hover:underline cursor-pointer mr-2"> Cookie Policy</span>          
+          <span class="hover:underline cursor-pointer mr-2"> Accessibility</span>          
+          <span class="hover:underline cursor-pointer mr-2"> Ads info</span>      
+          <span class="hover:underline cursor-pointer mr-2"> More</span> 
+          <span class="hover:underline cursor-pointer mr-2"> © 2024 X Corp.</span>
+        </div>
+
       </div>
     </div>
   </body>
